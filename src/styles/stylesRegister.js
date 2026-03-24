@@ -1,0 +1,85 @@
+import { StyleSheet } from 'react-native';
+
+export const registerStyles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#f2f2f2',
+        justifyContent: 'center',
+        padding: 24,
+    },
+    logoContainer: {
+        alignItems: 'center',
+        zIndex: 2,
+        marginBottom: -50, // Efecto solapado
+    },
+    logo: {
+        width: 100,
+        height: 100,
+        borderRadius: 50,
+        backgroundColor: '#fff',
+        borderWidth: 3,
+        borderColor: '#007AFF',
+    },
+    register: {
+        backgroundColor: '#fff',
+        padding: 30,
+        paddingTop: 60,
+        borderRadius: 40,
+        elevation: 8,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.15,
+        shadowRadius: 10,
+    },
+    title: {
+        fontSize: 28,
+        fontWeight: '800',
+        marginBottom: 8,
+        textAlign: 'center',
+        color: '#1a1a1a',
+    },
+    subtitle: {
+        fontSize: 14,
+        color: '#666',
+        textAlign: 'center',
+        marginBottom: 20,
+    },
+    texto: {
+        fontSize: 14,
+        fontWeight: '600',
+        color: '#444',
+        marginBottom: 5,
+        marginLeft: 4,
+    },
+    input: {
+        height: 50,
+        backgroundColor: '#f9f9f9',
+        borderRadius: 12,
+        paddingHorizontal: 16,
+        marginBottom: 12,
+        fontSize: 15,
+        borderWidth: 1,
+        borderColor: '#eee',
+    },
+    buttonRegister: {
+        height: 55,
+        backgroundColor: '#007AFF',
+        borderRadius: 15,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 10,
+        elevation: 4,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: '700',
+    },
+    linkText: {
+        color: '#007AFF',
+        textAlign: 'center',
+        fontSize: 14,
+        fontWeight: '600',
+        marginTop: 20,
+    },
+});

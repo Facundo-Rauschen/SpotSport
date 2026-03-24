@@ -1,0 +1,45 @@
+import { StyleSheet } from "react-native";
+
+export 
+const styles = StyleSheet.create({
+  capaFondo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.6)', justifyContent: 'flex-end' },
+  contenidoModal: { backgroundColor: 'white', height: '88%', borderTopLeftRadius: 30, borderTopRightRadius: 30, paddingHorizontal: 20 },
+  indicadorArrastre: { width: 40, height: 5, backgroundColor: '#E5E7E9', borderRadius: 10, alignSelf: 'center', marginTop: 12, marginBottom: 15 },
+  encabezado: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 20 },
+  tituloSede: { fontSize: 20, fontWeight: 'bold', color: '#2C3E50', flexShrink: 1 },
+  botonFavorito: { marginLeft: 10, padding: 5 },
+  subtitulo: { fontSize: 13, color: '#95A5A6' },
+  botonCerrar: { backgroundColor: '#F8F9F9', width: 36, height: 36, borderRadius: 18, justifyContent: 'center', alignItems: 'center' },
+  barraNavegacion: { flexDirection: 'row', marginBottom: 20, backgroundColor: '#F8F9F9', borderRadius: 12, padding: 4 },
+  itemNav: { flex: 1, alignItems: 'center', paddingVertical: 10, borderRadius: 10 },
+  itemNavActivo: { backgroundColor: 'white', elevation: 1 },
+  textoNav: { color: '#7F8C8D' },
+  textoNavActivo: { color: '#E74C3C', fontWeight: 'bold' },
+  envolturaCancha: { marginBottom: 12 },
+  tarjetaCancha: { flexDirection: 'row', padding: 16, backgroundColor: 'white', borderRadius: 15, borderWidth: 1, borderColor: '#F2F3F4' },
+  tarjetaCanchaActiva: { borderColor: '#E74C3C', borderBottomLeftRadius: 0, borderBottomRightRadius: 0 },
+  infoCancha: { flex: 1 },
+  nombreCancha: { fontSize: 16, fontWeight: 'bold' },
+  precioCancha: { fontSize: 14, color: '#27AE60', fontWeight: 'bold' },
+  seccionHorarios: { padding: 15, backgroundColor: '#FBFCFC', borderBottomLeftRadius: 15, borderBottomRightRadius: 15, borderWidth: 1, borderTopWidth: 0, borderColor: '#F2F3F4' },
+  etiquetaSeccion: { fontSize: 12, fontWeight: 'bold', color: '#95A5A6', marginBottom: 10, textTransform: 'uppercase' },
+  cuadriculaHorarios: { flexDirection: 'row', flexWrap: 'wrap' },
+  celdaHora: { width: '23%', paddingVertical: 12, borderRadius: 10, alignItems: 'center', marginBottom: 8, borderWidth: 1, marginRight: '2%' },
+  horaLibre: { backgroundColor: '#FFFFFF', borderColor: '#D5DBDB' },
+  horaOcupada: { backgroundColor: '#F9EBEB', borderColor: '#E74C3C', borderStyle: 'dashed' },
+  horaSeleccionada: { backgroundColor: '#E74C3C', borderColor: '#C0392B' },
+  textoHora: { fontSize: 13, fontWeight: 'bold', color: '#2C3E50' },
+  pieConfirmacion: {
+    position: 'absolute', bottom: 0, left: 0, right: 0, padding: 20, backgroundColor: 'white',
+    borderTopWidth: 1, borderTopColor: '#F2F3F4', paddingBottom: 40, elevation: 10,
+    shadowColor: '#000', shadowOffset: { width: 0, height: -3 }, shadowOpacity: 0.1, shadowRadius: 5
+  },
+  etiquetaPie: { fontSize: 13, fontWeight: 'bold', color: '#2C3E50', marginBottom: 12 },
+  contenedorDuracion: { flexDirection: 'row', justifyContent: 'space-between', marginBottom: 20 },
+  chipDuracion: { flex: 1, alignItems: 'center', paddingVertical: 10, borderRadius: 12, backgroundColor: '#F4F6F7', marginHorizontal: 4, borderWidth: 1, borderColor: '#D5DBDB' },
+  chipDuracionActivo: { backgroundColor: '#2C3E50', borderColor: '#2C3E50' },
+  textoDuracion: { color: '#7F8C8D', fontWeight: 'bold' },
+  textoDuracionActivo: { color: 'white' },
+  btnReservar: { backgroundColor: '#27AE60', paddingVertical: 16, borderRadius: 16, alignItems: 'center', elevation: 4 },
+  textoBtnReservar: { color: 'white', fontSize: 16, fontWeight: 'bold' }
+});
